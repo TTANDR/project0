@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+  <head>
+    <title>Project Zero - CSS</title>
+
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <iframe src="header.html" width=100% height="" Frameborder="0"></iframe>
+
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">CSS</li>
+      </ol>
+    </nav>
+
+    <ul>
+      <li>CSS (Cascading Style Sheets) is a language used to interact with and style HTML, changing the way it looks according to a series of rules. CSS is what makes websites look nice.      </li>
+      <li>CSS can be applied to HTML in a variety of ways:</li>
+      <ol>
+        <li>Style attribute: <b>&lth5 style="color:blue;text-align:center;">&lt/h5></b></li>
+        <li>
+          <p>Tags <b>&ltstyle> &lt/style> </b></p>
+          <p>This is a useful paradigm to use when reusing the same styling many times throughout a page. The properties listed will apply to all of the tags that are listed.</p></li>
+        <li>A separate .css file:
+          <p>Add <b>&ltlink rel="stylesheet" href="path/to/styles.css"></b> to the header</p>
+          <p>and  move the CSS code (same format as used inside the <b>&ltstyle>&lt/style></b> tags.</p>
+          <p>This is often an even better paradigm because it separates two distinctly different things: structure (HTML) and style (CSS), while also being easier to manage and read.</p>
+        </li>
+
+      </ol>
+    </ul>
+
+
+
+    <h2>Sectioning with HTML and CSS</h2>
+
+    <ul>
+      <li>Two special tags allow us to break up a our webpage into sections:</li>
+      <ul>
+        <li><b>&ltdiv>&lt/div></b> : vertical division of a webpage</li>
+        <li><b>&ltspan>&lt/span></b> : section of a webpage inside, for example, text</li>
+      </ul>
+      <li>Different sections of a webpage can be referenced with the <b>id</b> and <b>class</b> attributes. <b>id</b> uniquely identify elements, but there can be an arbitary number of elements with a given <b>class</b>.</li>
+      <li><p>ids can be referenced in CSS with <b>#id</b> and classes can be referenced with <b>.class</b>.</p>
+          <p> Ids and classes, therefore, can be used to style the same types of areas (3 different <b>&ltdiv>&lt/div></b>, for example) in different ways.</p></li>
+    </ul>
+
+
+    <a href="info_bootstrap.html">Look more for Bootstrap</a>
+
+
+
+
+
+  </body>
+</html>

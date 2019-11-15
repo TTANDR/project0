@@ -1,0 +1,46 @@
+body {
+  background-color: lightgrey
+}
+
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 5px
+
+}
+
+h2 {
+  font-size: 130%;
+}
+
+.CS50_header{
+  border:0;
+  font-size: 120%
+}
+
+.CS50_header_desktop{
+  border:0;
+  font-size: 120%
+
+}
+
+.alert-danger {
+  color: #721c24;
+  background-color: #111111;
+  border-color: #111111;
+}
+
+
+@media screen and (max-width: 600px) {
+  .CS50_header_desktop {
+    display: none;
+  }
+  .alert {
+    display: none
+  }
+}

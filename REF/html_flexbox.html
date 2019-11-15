@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .box {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        border: 2px dotted rgb(96, 139, 168);
+      }
+
+      .box>* {
+        border: 2px solid rgb(96, 139, 168);
+        border-radius: 5px;
+        background-color: rgba(96, 139, 168, .2);
+      }
+      .one {
+        flex: 1 1 200px;
+      }
+      .two {
+        flex: 0 10 200px;
+      }
+      .three {
+        flex: 0 3 200px;
+      }
+
+
+        </style>
+      </head>
+    <body>
+
+
+
+      <div class="box">
+        <div class="one">The result of this is that your items will all line up in a row, using the size of the content as their size in the main axis. If there are more items than can fit in the container, they will not wrap but will instead overflow. If some items are taller than others, all items will stretch along the cross axis to fill its full size.</div>
+        <div class="two">The result of this is that your items will all line up in a row, using the size of the content as their size in the main axis. If there are more items than can fit in the container, they will not wrap but will instead overflow. If some items are taller than others, all items will stretch along the cross axis to fill its full size.</div>
+        <div class="three"> others, all items will stretch along the cross axis to fill its full size.</div>
+      </div>
+
+
+
+    </body>
+</html>
